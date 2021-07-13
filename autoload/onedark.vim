@@ -13,7 +13,7 @@ let s:colors = {
       \ "cyan": get(s:overrides, "cyan", { "gui": "#56B6C2", "cterm": "38", "cterm16": "6" }),
       \ "white": get(s:overrides, "white", { "gui": "#ABB2BF", "cterm": "145", "cterm16": "15" }),
       \ "black": get(s:overrides, "black", { "gui": "#282C34", "cterm": "235", "cterm16": "0" }),
-      \ "foreground": get(s:overrides, "foreground", { "gui": "#E3FFE4" "cterm": "145", "cterm16": "NONE" }),
+      \ "foreground": get(s:overrides, "foreground", { "gui": "#E3FFE4", "cterm": "145", "cterm16": "NONE" }),
       \ "background": get(s:overrides, "background", { "gui": "#0E1012", "cterm": "235", "cterm16": "NONE" }),
       \ "comment_grey": get(s:overrides, "comment_grey", { "gui": "#5C6370", "cterm": "59", "cterm16": "7" }),
       \ "gutter_fg_grey": get(s:overrides, "gutter_fg_grey", { "gui": "#4B5263", "cterm": "238", "cterm16": "8" }),
