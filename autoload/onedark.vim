@@ -5,7 +5,7 @@ let s:overrides = get(g:, "onedark_color_overrides", {})
 let s:colors = {
       \ "red": get(s:overrides, "red", { "gui": "#FF3F6A", "cterm": "204", "cterm16": "1" }),
       \ "dark_red": get(s:overrides, "dark_red", { "gui": "#BE5046", "cterm": "196", "cterm16": "9" }),
-      \ "green": get(s:overrides, "green", { "gui": "#98C379", "cterm": "114", "cterm16": "2" }),
+      \ "green": get(s:overrides, "green", { "gui": "#00FF00", "cterm": "114", "cterm16": "2" }),
       \ "yellow": get(s:overrides, "yellow", { "gui": "#F9DA58", "cterm": "180", "cterm16": "3" }),
       \ "dark_yellow": get(s:overrides, "dark_yellow", { "gui": "#D19A66", "cterm": "173", "cterm16": "11" }),
       \ "blue": get(s:overrides, "blue", { "gui": "#61AFEF", "cterm": "39", "cterm16": "4" }),
@@ -13,7 +13,7 @@ let s:colors = {
       \ "cyan": get(s:overrides, "cyan", { "gui": "#56B6C2", "cterm": "38", "cterm16": "6" }),
       \ "white": get(s:overrides, "white", { "gui": "#ABB2BF", "cterm": "145", "cterm16": "15" }),
       \ "black": get(s:overrides, "black", { "gui": "#282C34", "cterm": "235", "cterm16": "0" }),
-      \ "foreground": get(s:overrides, "foreground", { "gui": "#000000F", "cterm": "145", "cterm16": "NONE" }),
+      \ "foreground": get(s:overrides, "foreground", { "gui": "#000000", "cterm": "145", "cterm16": "NONE" }),
       \ "background": get(s:overrides, "background", { "gui": "#000000", "cterm": "235", "cterm16": "NONE" }),
       \ "comment_grey": get(s:overrides, "comment_grey", { "gui": "#5C6370", "cterm": "59", "cterm16": "7" }),
       \ "gutter_fg_grey": get(s:overrides, "gutter_fg_grey", { "gui": "#4B5263", "cterm": "238", "cterm16": "8" }),
